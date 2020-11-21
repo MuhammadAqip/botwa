@@ -101,7 +101,7 @@ conn.sendMessage(group.gid, "Halo semua!!!", MessageType.extendedText) // say he
 //chat
 if (text == 'ST4RZ')
 {
-conn.sendMessage(id, Iya ada apa mau liat menu ketik *.help* ,MessageType.text);
+conn.sendMessage(id,Iya ada apa mau liat menu ketik *.help* ,MessageType.text)
 }
 // Fitur
 if(text.includes('.cek")){
