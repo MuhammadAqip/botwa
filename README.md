@@ -20,7 +20,7 @@ Hanya Menggunakan HP!
 
 ## Fitur
 
-| Owner Bot Only  |              Feature                |
+| ST4RZ BOT      |              Feature                |
 | :------------: | :---------------------------------------------: |
 |       ✅        |   Leave all group                   |
 |       ✅        |   Clear all message                 |
