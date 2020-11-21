@@ -20,7 +20,7 @@ Hanya Menggunakan HP!
 > npm i got
 > node index.js
 
-### Fitur
+## Fitur
 ```bash
 | Owner Bot Only  |              Feature                |
 | :------------: | :---------------------------------------------: |
