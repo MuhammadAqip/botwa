@@ -19,3 +19,6 @@ Hanya Menggunakan HP!
 > npm i
 > npm i got
 > node index.js
+
+### Fitur
+
