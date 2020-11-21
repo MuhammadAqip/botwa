@@ -22,14 +22,27 @@ Hanya Menggunakan HP!
 
 | ST4RZ BOT      |              Feature                |
 | :------------: | :---------------------------------------------: |
-|       ✅        |   Leave all group                   |
-|       ✅        |   Clear all message                 |
-|       ✅        |   Broadcast                      |
-|       ✅        |   Getses                      |
-|       ✅        |   Banchat                      |
-|       ✅        |   Maintenance                      |
-|       ✅        |   Add Admin Elaina                      |
-|       ✅        |   Del Admin Elaina                      |
-|       ✅        |   Block                      |
-|       ✅        |   Unblock                      |
-|       ✅        |   Join Group                      |
+|       ✅        |   Stiker                   |
+|       ✅        |   Nulis                 |
+|       ✅        |   Say                      |
+|       ✅        |   Cek                      |
+|       ✅        |   Igstalk                      |
+|       ✅        |   Ytmp3                      |
+|       ✅        |   Ytmp4                      |
+|       ✅        |   Facebook                     |
+|       ✅        |   Instagram                     |
+|       ✅        |   Twitter                      |
+|       ✅        |   Sholat                     |
+|       ✅        |   Tagall                     |
+|       ✅        |   Pict                     |
+|       ✅        |   Pantun                     |
+|       ✅        |   Quotes                     |
+|       ✅        |   Arti Nama                     |
+|       ✅        |   Pasangan                     |
+|       ✅        |   Random anime                     |
+|       ✅        |   Alay                     |
+|       ✅        |   Lirik                     |
+|       ✅        |   ttsid                     |
+|       ✅        |   Group Info                    |
+|       ✅        |   Owner                   |
+|       ✅        |   Owner Group                    |
