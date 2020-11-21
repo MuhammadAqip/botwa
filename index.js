@@ -638,8 +638,7 @@ if (text.includes(".groupinfo")){
 	var groupname = name
 	* Name Group : ${groupname}
 	* Members : ${totalMem}*
-    * Group Description* 
-${desc}`)
+        * Group Description* : ${desc}`)
 }
 if (text.includes(".owner")){
    conn.sendContact(chatId, `6289601416330@c.us`)
@@ -648,7 +647,7 @@ if (text.includes(".owner")){
 if (text.includes(".ownergroup")){
 	const Owner_ = chat.groupMetadata.owner
 	conn.sendTextWithMentions(from, `Owner Group : @${Owner_}`)
-
+}
 //AKHIRNYAAAAAAAA
 
 
