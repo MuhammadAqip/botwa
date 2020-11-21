@@ -42,5 +42,3 @@ Hanya Menggunakan HP!
 |       ✅        |   Lirik                     |
 |       ✅        |   ttsid                     |
 |       ✅        |   Group Info                    |
-|       ✅        |   Owner                   |
-|       ✅        |   Owner Group                    |
