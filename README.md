@@ -21,6 +21,7 @@ Hanya Menggunakan HP!
 > node index.js
 
 ### Fitur
+```bash
 | Owner Bot Only  |              Feature                |
 | :------------: | :---------------------------------------------: |
 |       ✅        |   Leave all group                   |
