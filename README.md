@@ -41,4 +41,3 @@ Hanya Menggunakan HP!
 |       ✅        |   Alay                     |
 |       ✅        |   Lirik                     |
 |       ✅        |   ttsid                     |
-|       ✅        |   Group Info                    |
