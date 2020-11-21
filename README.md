@@ -9,8 +9,6 @@ Hanya Menggunakan HP!
 > git clone https://github.com/MuhammadAqip/botwa
 > cd botwa
 > ls
-> pkg install wget
-> pkg install ffmpeg
 > npm i -g cwebp
 > npm i -g ytdl
 > npm i
