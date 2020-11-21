@@ -640,14 +640,6 @@ if (text.includes(".groupinfo")){
 	* Members : ${totalMem}*
         * Group Description* : ${desc}`)
 }
-if (text.includes(".owner")){
-   conn.sendContact(chatId, `6289601416330@c.us`)
-   conn.sendMesagge(id, itu nomor Pacar ku eh maksudnya Owner ku MessageType.text)
-}
-if (text.includes(".ownergroup")){
-	const Owner_ = chat.groupMetadata.owner
-	conn.sendTextWithMentions(from, `Owner Group : @${Owner_}`)
-}
 //AKHIRNYAAAAAAAA
 
 
