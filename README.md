@@ -21,4 +21,18 @@ Hanya Menggunakan HP!
 > node index.js
 
 ### Fitur
+| Owner Bot Only  |              Feature                |
+| :------------: | :---------------------------------------------: |
+|       ✅        |   Leave all group                   |
+|       ✅        |   Clear all message                 |
+|       ✅        |   Broadcast                      |
+|       ✅        |   Getses                      |
+|       ✅        |   Banchat                      |
+|       ✅        |   Maintenance                      |
+|       ✅        |   Add Admin Elaina                      |
+|       ✅        |   Del Admin Elaina                      |
+|       ✅        |   Block                      |
+|       ✅        |   Unblock                      |
+|       ✅        |   Join Group                      |
 
+---
