@@ -98,9 +98,6 @@ console.log ("Grup telah dibuat dengan id: " + group.gid)
 conn.sendMessage(group.gid, "Halo semua!!!", MessageType.extendedText) // say hello to everyone on the group
 
 }
-//chat
-if (text == 'ST4RZ')
-}
 // Fitur
 if(text.includes('.cek")){
 var num = text.replace(/.cek/ , "")
@@ -327,6 +324,13 @@ axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+if (text.includes(".sholat")){
+  const teks = text.replace(/.sholat /, "")
+  axios.get(`https://mhankbarbar.herokuapp.com/api/jadwalshalat?daerah=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then ((res) =>{
+  let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n👉Imsyak : ${res.data.Imsyak}\n👉Subuh : ${res.data.Subuh} WIB\n👉Dzuhur : ${res.data.Dzuhur}WIB\n👉Ashar : ${res.data.Ashar} WIB\n👉Maghrib : ${res.data.Maghrib}\n👉Isya : ${res.data.Isya} WIB\n👉Tengah malam : ${res.data.Dhuha} WIB`;
+  conn.sendMessage(id, hasil, MessageType.text);
+})
+}
 if (text == '.menu'){
 conn.sendMessage(id, menu.menu(id, BotName) ,MessageType.text);
 }
@@ -342,7 +346,7 @@ if (text.includes(".tagall")){
             }
             heho += ' ST4RZ BOT '
              sleep(2000)
-             conn.sendMessageWithMentions(from, heho)
+             conn.sendMessageWithMentions(id, heho, MessageType.text)
 else if (text == '.quran'){
 axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     const sr = /{(.*?)}/gi;
@@ -589,7 +593,7 @@ if (text.includes(".randomanime"))
   var path = require('path');
   var text1 = teks.slice(6);
   text1 = suara;
-  var suara = text.replace(/|ttsid/g, text1);
+  var suara = text.replace(/.ttsid/g, text1);
   var filepath = 'mp3/bacot.wav';
   
   
@@ -625,14 +629,7 @@ if (text.includes(".alay")){
 		conn.sendMessage(id, hasil, MessageType.text)
 	})
 }
-if (text.includes(".groupinfo")){
-	var totalMem = chat.groupMetadata.participants.length
-	var desc = chat.groupMetadata.desc
-	var groupname = name
-	* Name Group : ${groupname}
-	* Members : ${totalMem}*
-        * Group Description* : ${desc}`)
-}
+
 //AKHIRNYAAAAAAAA
 
 
