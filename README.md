@@ -1,43 +1,52 @@
-## bot WhatsApp Muhammad Tsaqif Fathurrizqi
-Hanya Menggunakan HP!
-### install 
+# botst4rz
+BOT WHATSAPP HP BINTANG NUR PRADANA
+
+### Alat dan Bahan
+Siapin alat dan bahannya.
 ```bash
-> termux-setup-storage
-> apt update && apt upgrade
-> pkg install git
-> pkg install nodejs
-> git clone https://github.com/MuhammadAqip/botwa
-> cd botwa
-> ls
-> npm i -g cwebp
-> npm i -g ytdl
-> npm i
-> npm i got
-> node index.js
+> niat
+> 2 handphone (1 buat jalanin sc, 1 buat scan qr)
+> internet yang memadai, kalo lu gapunya kuota pake kuota kemendikbud ae
+> aplikasi whatsapp
+> aplikasi termux
+> kopi
 ```
 
-## Fitur
+### Cara Installnya
+Sebelum lu jalanin sc nya install dulu lah.
+```bash
+> kalo lu belum punya apk termux, download di playstore
+> masuk ke apk termux lalu ketik dibawah ini!
+> git clone https://github.com/Bintang73/botst4rz.git
+> cd botst4rz
+> bash install.sh
+> node index.js
+> Tinggal scan qr dah
+```
 
-| ST4RZ BOT      |              Feature                |
-| :------------: | :---------------------------------------------: |
-|       ✅        |   Stiker                   |
-|       ✅        |   Nulis                 |
-|       ✅        |   Say                      |
-|       ✅        |   Cek                      |
-|       ✅        |   Igstalk                      |
-|       ✅        |   Ytmp3                      |
-|       ✅        |   Ytmp4                      |
-|       ✅        |   Facebook                     |
-|       ✅        |   Instagram                     |
-|       ✅        |   Twitter                      |
-|       ✅        |   Sholat                     |
-|       ✅        |   Tagall                     |
-|       ✅        |   Pict                     |
-|       ✅        |   Pantun                     |
-|       ✅        |   Quotes                     |
-|       ✅        |   Arti Nama                     |
-|       ✅        |   Pasangan                     |
-|       ✅        |   Random anime                     |
-|       ✅        |   Alay                     |
-|       ✅        |   Lirik                     |
-|       ✅        |   ttsid                     |
+## Features
+
+| st4rz BOT       |                Feature           |
+| :-----------: | :--------------------------------: |
+|       ✅       | Sticker Creator                  |
+|       ✅       | Magernulis                       |
+|       ✅       | Pantun                           |
+|       ✅       | Youtube Downloader               |
+|       ✅       | Quotes                           |
+|       ✅       | Anime                            |
+|       ✅       | Suara Google                     |
+|       ✅       | Quran                            |
+|       ✅       | Youtube MP3 Downloader           |
+|       ✅       | Intagram Downloader              |
+|       ✅       | Twitter Downloader               |
+|       ✅       | Facebook Downloader              |
+|       ✅       | Wikipedia                        |
+|       ✅       | Say                              |
+|       ✅       | Info                             |
+|       ✅       | Donate                           |
+
+## Special Thanks to
+* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
+
+### Donate
+* [`Saweria`](https://saweria.co/donate/bintangnurpradana)
